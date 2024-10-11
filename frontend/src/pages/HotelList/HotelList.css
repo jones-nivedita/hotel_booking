@@ -1,0 +1,23 @@
+.searchDiv{
+    @apply flex flex-col mb-4
+}
+
+.searchInput{
+    @apply border-neutral-200 border-2 px-2 py-1 rounded
+}
+
+.label{
+    @apply font-semibold
+}
+
+.input-row{
+    @apply flex flex-row justify-between my-2
+}
+
+.optionInput{
+    @apply border-neutral-200 border-2 px-2 py-1 rounded w-20
+}
+
+.button{
+    @apply bg-purple-navy hover:bg-dark-purple-navy px-3 py-2 text-white rounded
+}

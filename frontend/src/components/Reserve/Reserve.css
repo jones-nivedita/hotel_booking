@@ -1,0 +1,19 @@
+.reserve{
+    @apply fixed top-0 left-0 w-full h-full flex justify-center items-center bg-black/75
+}
+
+.content-container{
+    @apply relative bg-white p-6 rounded-lg max-h-96 max-w-6xl overflow-y-auto
+}
+
+.close {
+    @apply absolute text-black top-2 right-2 text-sm cursor-pointer;
+}
+
+.btn{
+    @apply bg-purple-navy hover:bg-dark-purple-navy px-3 py-2 text-white rounded mt-2
+}
+
+.selectRooms{
+    @apply mt-6
+}

@@ -1,0 +1,35 @@
+.searchdiv{
+    @apply flex flex-col xl:flex-row xl:mx-40 mx-20 bg-slate-400 xl:space-x-3 space-y-2 px-2 py-2 rounded my-5
+}
+
+.filterinput{
+    @apply focus:outline-none
+}
+
+.inputdiv{
+    @apply flex space-x-2 bg-white items-center px-3 py-2 xl:px-6 xl:py-5 rounded relative
+}
+
+.icons{
+    @apply text-neutral-400 text-sm xl:text-2xl 
+}
+
+.options{
+    @apply absolute top-full mt-2 bg-white text-gray-700 rounded-lg z-20 p-4
+}
+
+.optionItem{
+    @apply flex justify-between mb-2 space-x-1
+}
+
+.optionCounter{
+    @apply flex items-center space-x-2
+}
+
+.optionCounterButton{
+    @apply w-8 h-8 border border-purple-navy text-purple-navy bg-white cursor-pointer disabled:cursor-not-allowed rounded-sm;
+}
+
+.date {
+    @apply absolute top-full mt-2 z-20;
+  }

@@ -1,0 +1,8 @@
+.inputDiv{
+    @apply flex flex-row justify-between items-center text-sm mt-6 space-y-4 sm:space-y-0 sm:space-x-4
+}
+
+
+.input{
+    @apply border-neutral-200 border-2 rounded p-1
+}

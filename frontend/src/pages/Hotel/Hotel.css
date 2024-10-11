@@ -1,0 +1,27 @@
+.btn{
+    @apply bg-purple-navy hover:bg-dark-purple-navy px-3 py-2 text-white rounded text-sm lg:text-xl
+}
+
+.slider{
+    @apply fixed top-0 left-0 w-full h-full flex justify-center items-center bg-black/75
+}
+
+.closeIcon {
+    @apply absolute top-5 right-5 text-white text-3xl cursor-pointer;
+}
+
+.arrowIcon {
+    @apply text-white text-3xl cursor-pointer absolute;
+}
+
+.sliderImg {
+    @apply w-full max-w-3xl max-h-screen object-cover;
+}
+
+.arrowIcon.left {
+    @apply left-5 
+  }
+  
+.arrowIcon.right {
+    @apply right-5 
+}
