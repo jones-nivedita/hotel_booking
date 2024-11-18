@@ -6,11 +6,6 @@ import Featured from '../components/Featured/Featured';
 
 const Home = () => {
     const [hotels, setHotels] = useState([]);
-    /*useEffect(() => {
-        axios.get('http://localhost:8001/api/hotels')
-        .then(response => setHotels(response.data))
-        .catch(err => console.log('Error retrieving hotel details:',err))
-    })*/
 
   return (
     <div>
